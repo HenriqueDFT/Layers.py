@@ -72,7 +72,8 @@ O relatório inclui:
 
 # 📸 Imagens da Interface
 
-interface
+![](<img width="599" height="635" alt="image" src="https://github.com/user-attachments/assets/8b119f10-059e-46ff-9ca3-249d07d23a61" />)
+
 # 📁 Estrutura do Projeto
 
 layer.py/
@@ -100,6 +101,9 @@ Este projeto está licenciado sob a MIT License.
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, propor melhorias ou enviar pull requests.
 
+## ⚛️ conheça o nosso grupo GNC
+
+![](https://github.com/HenriqueDFT/Layers.py/blob/main/qr.png)
 
 ---
 
