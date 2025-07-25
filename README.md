@@ -72,7 +72,7 @@ O relatório inclui:
 
 # 📸 Imagens da Interface
 
-![](<img width="599" height="635" alt="image" src="https://github.com/user-attachments/assets/8b119f10-059e-46ff-9ca3-249d07d23a61" />)
+![](https://github.com/HenriqueDFT/Layers.py/blob/main/interface.png)
 
 # 📁 Estrutura do Projeto
 
