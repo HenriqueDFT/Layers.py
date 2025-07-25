@@ -107,6 +107,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, propor m
 
 ---
 
-Se quiser que eu gere esse `README.md` como arquivo real, posso criar para você agora. Deseja?
+Façam teste :)
 ```bash
 
