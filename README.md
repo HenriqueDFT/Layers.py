@@ -1,80 +1,87 @@
 # 🧪 LAYER.PY
 
+---
+
 ## ✨ Descrição
 
 O **layer.py** é uma aplicação em Python desenvolvida para analisar estruturas moleculares ou cristalinas obtidas via **cálculos de DFT** (Teoria do Funcional da Densidade), a partir de arquivos no formato `.xyz`.
 
 A ferramenta permite:
 
-- Cálculo automático do **gap de energia (Eg)**;
-- Determinação da **distância entre camadas**;
-- Cálculo das **distâncias de ligações químicas**;
-- Interface gráfica amigável desenvolvida com `Tkinter`;
-- Exportação de **relatórios em PDF** com os resultados, incluindo **nome e dados do usuário**.
+* Cálculo automático do **gap de energia (Eg)**;
+* Determinação da **distância entre camadas**;
+* Cálculo das **distâncias de ligações químicas**;
+* Interface gráfica amigável desenvolvida com `Tkinter`;
+* Exportação de **relatórios em PDF** com os resultados, incluindo **nome e dados do usuário**.
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
 
-- Python `>=3.8`
-- Tkinter (interface gráfica)
-- NumPy
-- Matplotlib
-- ReportLab (para gerar PDF)
+* Python `>=3.8`
+* Tkinter (interface gráfica)
+* NumPy
+* Matplotlib
+* ReportLab (para gerar PDF)
 
 ---
 
-## 📥 Instalação
+## 📥 Instalação e Uso
 
-Clone o repositório:
+Para começar a usar o Layer.py, siga estes passos simples:
 
+1.  **Baixe o Projeto:**
+    Baixe o arquivo `layers.zip` do repositório.
 
-git clone https://github.com/SeuUsuario/layer.py.git
-cd layer.py
+2.  **Extraia o Conteúdo:**
+    Descompacte o arquivo `layers.zip` em uma pasta de sua preferência.
 
-Crie um ambiente virtual e instale as dependências:
+3.  **Instale as Dependências (se necessário):**
+    Abra o terminal ou prompt de comando, navegue até a pasta onde você extraiu o projeto (a mesma onde está o arquivo `requirements.txt`) e execute o seguinte comando para instalar todas as bibliotecas necessárias:
 
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *Dica: Se você tiver problemas com a versão do Python, pode tentar usar `pip3 install -r requirements.txt`.*
 
-# ▶️ Como Usar
+4.  **Execute o Programa:**
+    Com as dependências instaladas, você já pode iniciar a aplicação. No mesmo terminal ou prompt de comando, execute:
 
-    Execute o programa:
+    ```bash
+    python3 layer.py
+    ```
 
-#python3 layer.py
+### ▶️ Como Usar na Interface Gráfica:
 
-    Na interface gráfica, você poderá:
+Ao abrir o programa, você poderá:
 
-        Selecionar um arquivo .xyz;
+* **Selecionar arquivos** `.xyz` ou `.bands` para seus cálculos.
+* **Visualizar** o gap de energia, distâncias atômicas e distâncias entre camadas.
+* **Gerar um relatório PDF** com seus resultados, personalizando com seu nome e dados.
 
-        Com base no selecionado visualize o gap de energia e distâncias atômicas;
+---
 
-        Gerar relatório PDF com seu nome e dados personalizados.
-
-# 📄 Exemplo de Relatório Gerado
+## 📄 Exemplo de Relatório Gerado
 
 O relatório inclui:
 
-    Nome do usuário;
+* Nome do usuário;
+* Cargo;
+* Orientador;
+* Gap de energia calculado;
+* Lista de distâncias entre átomos;
+* Distância média entre camadas;
+* Visualização da estrutura (opcional).
 
-    Cargo;
-     
-    Orientador:
+---
 
-    Gap de energia calculado;
-
-    Lista de distâncias entre átomos;
-
-    Distância média entre camadas;
-
-    Visualização da estrutura (opcional).
-
-# 📸 Imagens da Interface
+## 📸 Imagens da Interface
 
 ![](https://github.com/HenriqueDFT/Layers.py/blob/main/interface.png)
 
-# 📁 Estrutura do Projeto
+---
+
+## 📁 Estrutura do Projeto
 
 layer.py/
 ├── layer.py
@@ -89,24 +96,29 @@ layer.py/
 ├── README.md
 └── requirements.txt
 
+
+---
+
 ## 🧑‍💻 Autor
 
 Desenvolvido por Henrique Lago, bacharel em Física pela Universidade Federal do Piauí (UFPI), membro do grupo de Nanofísica Computacional (GNC/UFPI), com experiência em simulações via DFT utilizando o pacote SIESTA.
 
 GitHub: @HenriqueDFT
-# 📜 Licença
 
-Este projeto está licenciado sob a MIT License.
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
 ## ☕ Contribua
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, propor melhorias ou enviar pull requests.
 
-## ⚛️ conheça o nosso grupo GNC
-
-![](https://github.com/HenriqueDFT/Layers.py/blob/main/qr.png)
-
 ---
 
-Façam teste :)
-```bash
+## ⚛️ Conheça o Nosso Grupo GNC
 
+![](https://github.com/HenriqueDFT/Layers.py/blob/main/qr.png)
