@@ -82,6 +82,7 @@ O relatório inclui:
 ---
 
 ## 📁 Estrutura do Projeto
+```text
 
 layer.py/
 ├── layer.py
@@ -95,7 +96,7 @@ layer.py/
 │   └── estrutura.xyz
 ├── README.md
 └── requirements.txt
-
+``` 
 
 ---
 
